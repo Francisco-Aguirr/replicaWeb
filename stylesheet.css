@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap'); 
+body{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor-1{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 2%;
+}
+@media (min-width: 1200px ) {
+    .contenedor-1{
+        max-width: 1059px;
+    }
+}
+img{
+    width: 100%;
+}
+.head-cabecera{
+    position: fixed;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 10vh;
+}
+
+
+button{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(245, 74, 74);
+    background-color: white;
+    margin-top: 30px;
+    padding: 5px 10px 5px 10px;
+}
+.f5-link{
+    text-decoration: none;
+    color: red;
+}
+
+
+.caja1{
+   
+    width:70%;
+}
+
+.cajax{
+    width: 30%;
+    height: 100%;
+    margin-right: 900px;
+}
+.logo{
+    padding-left: 50px;
+}
+.screens{
+    color: black;
+    border: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.features{
+    color: black;
+    border: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.description1{
+    color: black;
+    border: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.extra{
+    border: white;
+    color: red;
+    margin: 10px;
+}
+
+
+.decorative{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+.green{
+    height: 50%;
+    width: 50%;
+}
+.diamond{
+    height: 50%;
+    width: 50%;
+    margin-top: 25px;
+    margin-right: 450px;
+}
+.yellow{
+height: 50%;
+width: 50%;
+}
+.circle{
+height: 50%;
+width: 50%;
+margin-left: 600px;
+margin-top: 20px;
+}
+.mobile{
+    
+      
+}
+h1{
+    text-align: center;
+    font-size: 110px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.iphone{
+   
+}
+.iph{
+    padding-bottom: 5%;
+}
+.store{
+    color: white;
+    height: 30px;
+    margin: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: red;
+}
+.manzana{
+    height: 25%;
+    width: 25%;
+    position: relative;
+    right: 65px;
+    top: 15px;
+}
+.code{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 60px;
+    background-color: rgb(69, 222, 187);
+    padding: 15px;
+    fill: rgb(9, 123, 78);
+}
+.users{
+    height: 100px;
+    width: 100px; 
+    margin: 20px;
+    border-radius: 60px;
+    background-color: rgb(194, 133, 240);
+    padding: 15px;
+    fill: rgb(121, 21, 171);
+}
+.gear{
+    height: 100px;
+    width: 100px; 
+    margin: 20px; 
+    border-radius: 60px;
+    background-color: rgb(248, 117, 163);
+    padding: 15px;
+    fill: rgb(224, 21, 21);
+}
+.comment{
+    height: 100px;
+    width: 100px;  
+    margin: 20px; 
+    border-radius: 60px;
+    background-color: rgb(235, 190, 45);
+    padding: 15px; 
+    fill: rgb(255, 140, 0);
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+}
+.rock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.rocket{
+    height: 100px;
+    width: 100px;  
+    margin: 20px; 
+    border-radius: 60px;
+    background-color: rgb(100, 203, 240);
+    padding: 25px; 
+    fill: rgb(40, 40, 251);
+}
+.parte-dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    background-color: rgb(255, 254, 254);
+}
+.description{
+    height: 100%;
+    width: 100%;
+}
+.img-app{
+    height: 95%;
+    width: 85%;
+    margin: 30px;
+}
+.text-butt{
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+}
+.organize{
+    font-size: 50px;
+}
+.first-mobile{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.lightbox{
+    margin-top: 90px;
+    border-radius: 20px;
+    background-color: rgb(248, 78, 78);
+    color: white;
+    padding: 10px 18px 10px 18px;
+    margin-left: 10px;
+}
+.first-list{
+    margin-top: 80px;
+    font-size: 25px;
+}
+.parte-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    background-color: rgb(234, 227, 227);
+}
+.img-2{
+    height: 100%;
+    width: 100%;
+}
+.img2{
+    height: 80%;
+    width: 90%;
+    margin: 30px;
+    margin-top: 85px;
+}
+.schedule{
+    height: 100%;
+    width: 100%;
+}
+.check{
+    height: 5%;
+    width: 5%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.check2{
+    height: 5%;
+    width: 5%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.check3{
+    height: 5%;
+    width: 5%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.termns{
+    background-color: rgb(245, 72, 72);
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    margin-top: 360px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 50px;
+}
+.privacy{
+    background-color: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 18px 10px 18px;
+    margin-top: 360px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.schedule-button{
+    background-color: rgb(223, 12, 223);
+    color: white;
+    padding: 10px;
+    border-radius: 0;
+    margin-left: 25px;
+    width: 25%;
+    border: 0px;
+    font-size: 20px;
+}
+.clock{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+.tracking-button{
+    background-color: rgb(250, 243, 243);
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    border-radius: 0;
+    margin-left: 25px;
+    width: 25%;
+    border: 0px;
+    font-size: 20px;
+}
+.list{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+.organize-button{
+    background-color: rgb(253, 252, 253);
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    border-radius: 0;
+    margin-left: 25px;
+    width: 25%;
+    border: 0px;
+    font-size: 20px;
+}
+
+.calendar{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+.special{
+    height: 30vh;
+    text-align: center;
+}
+.special-h{
+    font-size: 70px;
+    margin-top: 120px;
+}
+
+.parte-3{
+    
+   
+}
+.testimonios{
+text-align: center;
+height: 20%;
+}
+.names{
+    font-size: 20px;
+}
+.user-h3{
+font-size: 50px;
+padding-top: 110px;
+height: 80%;
+}
+.parte-3-stars{
+    height: 30%;
+    display: flex;
+}
+.star1{
+    height: 10%;
+    width: 10%;
+}
+.star2{
+    height: 10%;
+    width: 10%;
+}
+.star3{
+    height: 10%;
+    width: 10%;
+}
+.star4{
+    height: 10%;
+    width: 10%;
+}
+.star5{
+    height: 10%;
+    width: 10%;
+}
+
+.stars{
+width: 33.33%;
+text-align: center;
+padding-top: 30px;
+}
+.stars2{
+width: 33.33%;
+text-align: center;
+padding-top: 30px;
+}
+.stars3{
+width: 33.33%;
+text-align: center;
+padding-top: 30px;
+}
+.rick-jones{
+    font-size: 25px;
+    margin: 10px;
+}
+.lidia-marquez{
+    font-size: 25px;
+    margin: 10px;
+}
+.jay-frisco{
+    font-size: 25px;
+    margin: 10px;
+}
+.customers{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+}
+.customer-logos{
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(245, 244, 244);
+    margin-top: 50px;
+}
+.customer-logos img{
+    flex-basis: 0;
+    object-fit: contain;
+}
+.logo-1{
+margin: 20px;
+padding-left: 40px;
+}
+.logo-2{
+    margin: 20px;
+    padding-left: 40px;
+}
+.logo-3{
+    margin: 20px;
+    padding-left: 40px;
+}
+.logo-4{
+    margin: 20px;
+    padding-left: 40px;
+}
+.logo-5{
+    margin: 20px;
+    
+}
+.frank-gibson{
+    font-size: 25px;
+    margin: 10px;
+}
+.rita{
+    font-size: 25px;
+    margin: 10px;
+}
+.jones-smith{
+    font-size: 25px;
+    margin: 10px;
+}
+.pie-part-3{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(236, 232, 232);
+}
+
+.icono-users{
+height: 20%;
+width: 20%;
+fill: rgb(157, 74, 235);
+}
+.icono-code{
+    height: 20%;
+    width: 20%;
+    fill: rgb(4, 199, 102);
+}
+.icono-gear{
+    height: 20%;
+    width: 20%;
+    fill: rgb(240, 77, 77);
+}
+.icono-comentario{
+    height: 20%;
+    width: 20%;
+    fill: rgb(255, 208, 0);
+}
+.icono-rocket{
+    height: 20%;
+    width: 20%;
+    fill: blue;
+}
+.users231{
+    font-size: 100px;
+    margin-top: 0;
+}
+.code385{
+    font-size: 100px;
+    margin-top: 0;
+}
+.gear159{
+    font-size: 100px;
+    margin-top: 0;
+}
+.comment127{
+    font-size: 100px;
+    margin-top: 0;
+}
+.rocket211{
+    font-size: 100px;
+    margin-top: 0;
+}
+.pie-3-users{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding-top: 110px;
+    flex-direction: row;
+}
+.pie-3-code{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding-top: 110px;
+    flex-direction: row;
+}
+
+.pie-3-gear{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding-top: 110px;
+    flex-direction: row;
+}
+
+.pie-3-comment{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding-top: 110px;
+    flex-direction: row;
+}
+
+.pie-3-rocket{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding-top: 110px;
+    flex-direction: row;
+}
+.parte-4{
+    height: 150vh;
+}
+.ipho-4{
+    height: 90%;
+    width: 100%;
+}
+.iph-part-4{
+   
+    width: 100%;
+    padding-top: 182px;
+}
+.circulo-blue{
+    height: 5%;
+    position: relative;
+    left: 474px;
+    bottom: 522px;
+}
+.circulo-yellow{
+    height: 3%;
+    width: 3%;
+    position: relative;
+    left: 42px;
+    bottom: 276px;
+}
+.diamante-green{
+    height: 1%;
+    width: 1%;
+    position: relative;
+    bottom: 748px;
+    left: 829px;
+}
+.part-4-buttons{
+    height: 50vh;
+}
+.downloads-part-4{
+    text-align: center;
+}
+.apple{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+.app-store-apple{
+    padding: 12px;
+    background-color: rgb(255, 83, 83);
+    color: white;
+    margin-left: 25px;
+    width: 20%;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.play{
+    height: 10%;
+    width: 10%;  
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+.dou-you-feel{
+    font-size: 40px;
+    margin: 15px;
+}
+.footer-final{
+    display: flex;
+    margin-top: auto;
+}
+.footer-final .contenedor-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-final section:last-child{
+    width: 100%;
+}
+.contact-info{
+width: 25%;
+height: 100%;
+color: rgb(88, 85, 85);
+}
+.location{
+    height: 5%;
+    width: 5%;
+    position: relative;
+    right: 15px;
+    top: 5px;
+}
+.gps{
+    color: gray;
+}
+.e-mail{
+    height: 5%;
+    width: 5%;
+    position: relative;
+    right: 18px;
+    top: 5px;
+    color: gray;
+}
+.correo{
+    position: relative;
+    right: 22px;
+    color: gray;
+}
+.phone-number{
+    height: 5%;
+    width: 5%;
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+.telefono{
+    position: relative;
+    right: 75px;
+    color: gray;
+}
+.value-links{
+    width: 25%;
+    height: 100%;
+}
+.val-links{
+    position: relative;
+    right: 55px;
+    color: rgb(87, 85, 85);
+}
+.term-link{
+    text-decoration: none;
+    color: gray;
+}
+.privacy-link{
+    text-decoration: none;
+    color: gray;
+}
+.privacidad{
+    position: relative;
+    right: 30px;
+}
+.article{
+    text-decoration: none;
+    color: gray;
+}
+.articulos{
+    position: relative;
+    right: 20px;
+}
+.other-apps{
+    width: 25%;
+    height: 100%;
+}
+.otras-apps{
+    position: relative;
+    right: 55px;
+    color: rgb(88, 86, 86);
+}
+.calcu{
+color: gray;
+}
+.timer{
+position: relative;
+right: 20px;
+color: gray;
+}
+.music{
+position: relative;
+right: 45px;
+color: gray;
+}
+.redes{
+    width: 25%;
+    height: 100%;
+    padding-top: 40px;
+}
+.face{
+height: 10%;
+width: 10%;
+margin: 10px;
+
+
+
+}
+.twit{
+width: 10%;
+height: 10%;
+margin: 10px;
+}
+.pinter{
+height: 10%;
+width: 10%;
+margin: 10px;
+}
+.insta{
+height: 10%;
+width: 10%;
+margin: 10px;
+}
+.copyright{
+    color: gray;
+}
+.home-term{
+    height: 15vh;
+    background-color: rgb(233, 229, 229);
+}
+.home-butt-term{
+    border: none;
+    padding-top: 40px;
+    margin: 50px 10px 10px 10px;
+    color: gray;
+    font-size: 25px;
+    position: relative;
+    top: 45px;
+    left: 60px;
+}
+.longer-article{
+    position: relative;
+    bottom: 13px;
+    right: 450px;
+    color: gray;
+}
+.article-large{
+    height: 100vh;
+}
+.pc-large{
+    height: 90%;
+    width: 100%;
+}
+.pc-details{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+.text-article{
+    height: 60vh;
+}
+.business{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+}
+.text-article-2{
+color: gray;
+font-size: 30px;
+text-align: justify;
+position: relative;
+left: 100px;
+}
+.text-article-3{
+color: gray;
+font-size: 30px;
+text-align: justify;
+position: relative;
+left: 100px;
+}
+.text-articles{
+    width: 80%;
+}
+.listas{
+height: 50vh;
+display: flex;
+flex-direction: row;
+}
+.primera-lista{
+width: 50%;
+height: 100%;
+text-align:left;
+font-size: 25px;
+color: rgb(92, 89, 89);
+position: relative;
+left: 100px;
+}
+.segunda-lista{
+    width: 30%;
+    height: 100%;
+    text-align: justify;
+    position: relative;
+    font-size: 25px;
+    color: rgb(92, 89, 89);
+    left: 95px;
+    top: 25px;
+}
+.improving{
+height: 80vh;
+display: flex;
+flex-direction: row;
+
+}
+.text-improving{
+height: 100%;
+width: 50%;
+}
+.detalles-small{
+height: 100%;
+width: 50%;
+}
+.pc-small{
+    padding-left: 90px;
+}
+.texto{
+    text-align:left;
+    font-size: 25px;
+    position: relative;
+    left: 65px;
+    color: gray; 
+    margin: 55px;
+}
+.sub-titulo{
+    position: relative;
+    left: 125px;
+    color: gray;
+    font-size: 30px;
+}
+.sync-coment{
+height: 40vh;
+}
+.gray-sect{
+height: 50%;
+width: 90%;
+background-color: rgb(211, 222, 219);
+padding: 20px 20px 20px 20px;
+margin-left: 100px;
+}
+.sync-text{
+position: relative;
+text-align: justify;
+width: 90%;
+left: 40px;
+color: gray;
+font-size: 25px;
+}
+.project{
+    height: 50vh;
+}
+.project-h{
+height: 90%;
+width: 90%;
+margin-left: 100px;
+}
+.project-p{
+    color: gray;
+    text-align: justify;
+}
+.project-hh{
+    font-size: 40px;
+    text-align: left;
+}
+.back-boton-1{
+    background-color: rgb(238, 82, 82);
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+}
+.padding-bloque{
+    padding-bottom: 5%;
+}
+
+
